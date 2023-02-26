@@ -8,3 +8,4 @@ from .models import Post
 class HomePage(ListView):
     model = Post
     template_name = 'home.html'
+    context_object_name = 'posts'
